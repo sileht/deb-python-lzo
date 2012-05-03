@@ -3,14 +3,13 @@ Maintainer: Mehdi Abaakouk <sileht@sileht.net>
 Section: python
 Priority: optional
 Build-Depends: python-all-dev (>= 2.6.6-3), debhelper (>= 7), liblzo2-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Homepage: http://www.oberhumer.com/opensource/lzo/download/
 
 Package: python-lzo
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Description: Python bindings for the LZO data compression library
- .
  This module provides Python bindings for the LZO data compression library.
  .
  LZO is a portable lossless data compression library written in ANSI C.

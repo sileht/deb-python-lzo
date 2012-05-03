@@ -1,6 +1,6 @@
 python-lzo (1.08-1) unstable; urgency=low
 
-  * Initial import
+  * Initial import (Closes: #671375)
   * add patches/01-use-lzo2-insteadof-lzo.patch to use lzo2 instead of lzo
 
  -- Mehdi Abaakouk <sileht@sileht.net>  Thu, 03 May 2012 00:09:48 +0200
