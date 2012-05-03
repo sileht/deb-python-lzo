@@ -1,0 +1,21 @@
+commit 4a98ad92d8e5ca3d954bf2270706c8c624a685a5
+Author: Joshua Boyd <jdboyd@vs-networks.com>
+Date:   Thu Sep 15 11:19:52 2011 -0400
+
+    Adjust setup.py to work with lzo2.
+
+diff --git a/setup.py b/setup.py
+index 5a9b535..39e4c56 100644
+--- a/setup.py
++++ b/setup.py
+@@ -24,8 +24,8 @@ if sys.platform == "win32":
+     include_dirs.append(os.path.join(CURL_DIR, "include"))
+     extra_objects.append(os.path.join(CURL_DIR, "lzo.lib"))
+ else:
+-    libraries = ["lzo"]
+-    ##include_dirs.append("/usr/local/include")
++    libraries = ["lzo2"]
++    include_dirs.append("/usr/include/lzo")
+     ##library_dirs.append("/usr/local/lib")
+     ##runtime_library_dirs.append("/usr/local/lib")
+ 
