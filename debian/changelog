@@ -1,3 +1,11 @@
+python-lzo (1.08-2) unstable; urgency=low
+
+  * Remove duplicate license text from debian/copyright
+  * Launch test when build package
+  * Change homepage
+
+ -- Mehdi Abaakouk <sileht@sileht.net>  Mon, 07 May 2012 10:16:21 +0200
+
 python-lzo (1.08-1) unstable; urgency=low
 
   * Initial import (Closes: #671375)
