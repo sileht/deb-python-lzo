@@ -4,7 +4,7 @@ Section: python
 Priority: optional
 Build-Depends: python-all-dev (>= 2.6.6-3), debhelper (>= 7.0.50~), liblzo2-dev
 Standards-Version: 3.9.3
-Homepage: http://www.oberhumer.com/opensource/lzo/download/
+Homepage: http://www.oberhumer.com/opensource/lzo/
 
 Package: python-lzo
 Architecture: any
