@@ -1,1 +1,2 @@
 01-use-lzo2-insteadof-lzo.patch
+02-fix-exception-handling-in-test.patch

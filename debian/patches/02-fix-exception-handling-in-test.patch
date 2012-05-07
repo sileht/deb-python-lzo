@@ -1,0 +1,13 @@
+Description: fix the incorrect return status of a test
+Index: python-lzo/tests/test.py
+===================================================================
+--- python-lzo.orig/tests/test.py	2012-05-07 13:52:28.000000000 +0200
++++ python-lzo/tests/test.py	2012-05-07 19:05:01.000000000 +0200
+@@ -95,6 +95,7 @@
+         pass
+     else:
+         print "Exception handling does NOT work !"
++        return 1
+     return 0
+ 
+ 
